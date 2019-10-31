@@ -2,7 +2,7 @@ console.log("hi");
 window.onload=loadingPage;
 
 function loadingPage() {
-    setTimeout(displayPage,3*1000);
+    setTimeout(displayPage,0*1000);
 };
 
 function displayPage() {

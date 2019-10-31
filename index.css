@@ -1,20 +1,14 @@
-html, body {
-    margin: 0; 
-    height: 100%;
-    width: 100%; 
-    overflow: hidden;
-}
 body {
+    background-color: black;
     color: white;
 }
 .container-fluid {
     padding: 0;
 }
-.side-menu-bar{
-    background-color: black;
+.side-menu-bar{    
     height:90vh;
 }
-.side-menu-bar a {
+a {
     color: white;
 }
 .dashboard {
@@ -29,9 +23,11 @@ body {
 .fa {
     margin-right: 10px;
 }
-.side-menu-bar ul, button {
+.side-menu-bar ul, .side-menu-bar button {
     width: 100%;
 }
+
+
 .footer-stick {
     position: absolute;
     bottom: 0;
