@@ -1,3 +1,17 @@
-body {
+.side-menu-bar{
+    background-color: black;
+    color:white;
+}
+.dashboard {
+    background-color: blue;
+    color:white;
+}
+.footer-player {
     background-color: green;
+}
+.fa {
+    margin: 4px 10px 0;
+}
+.side-menu-bar button {
+    width: 70%;
 }
