@@ -1,17 +1,38 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+}
+body {
+    color: white;
+}
+.container-fluid {
+    padding: 0;
+}
 .side-menu-bar{
     background-color: black;
-    color:white;
+    height:90vh;
+}
+.side-menu-bar a {
+    color: white;
 }
 .dashboard {
-    background-color: blue;
-    color:white;
+    background-color: #15273D;
 }
-.footer-player {
-    background-color: green;
+.dashboard img {
+    width: 100%;;
+}
+.footer-player audio{
+    width:100%;
 }
 .fa {
-    margin: 4px 10px 0;
+    margin-right: 10px;
 }
-.side-menu-bar button {
-    width: 70%;
+.side-menu-bar ul, button {
+    width: 100%;
+}
+.footer-stick {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
