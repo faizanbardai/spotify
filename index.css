@@ -10,6 +10,7 @@ body {
 }
 a {
     color: white;
+    cursor: pointer;
 }
 .dashboard {
     background-color: #15273D;
